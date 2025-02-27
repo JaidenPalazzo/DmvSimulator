@@ -7,10 +7,10 @@ public class DmvSimulator {
         System.out.println("Welcome to the DMV!!"); 
         
         Random random = new Random(); 
-        int num = random.nextInt(100) +1; 
+        int num = random.nextInt(200) +1; 
         System.out.println("Your number is " + num + ". Please wait until your number is called. "); 
 
-        for (int i = num + 1; i <= 100; i++) {
+        for (int i = num + 1; i <= 200; i++) {
             System.out.println("Number " + i + " Please come up to the front"); 
         }
 
