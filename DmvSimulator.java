@@ -18,7 +18,12 @@ public class DmvSimulator {
             System.out.println("Number "+ i+ " Please come to the front"); 
         }
 
+        if (num == 2 || num == 102){
+            System.out.println("you have all the required paperwork, your all set!!"); 
+        }
+        else {
         System.out.println("you do not have the required paperwork, go to hell MWAHAHAHAHAHAHAHAHAHAHAHA"); 
+        }
 
     }
 }
